@@ -1,0 +1,21 @@
+1.0
+0.0
+1.0
+1.0
+20.4
+0.01
+0
+################################################################################
+#Inserir valores físicos consistentes para as constantes!
+#Leia o manual para mais dúvidas!
+#
+#Linha                   (Variável)/ Atribuição / [Unidade]
+#
+################################################################################
+#1                         (x0)     Posição Inicial                   [m]
+#2                         (v0)     Velocidade Inicial              [m/s]
+#3                          (m)     Massa da Patícula                [Kg]
+#4                          (k)     Constante da mola               [N/m]
+#5                        (npt)     Tempo Total                       [s]
+#6                         (dt)     Incremento do Tempo Infinitesimal [s]
+#7                        (all)     Controle para rodar todos os casos e juntar os gráficos [0 não, 1 sim] 
