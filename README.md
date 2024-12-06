@@ -17,3 +17,4 @@ Departamento de Física - Universidade Federal de Juiz de Fora
 3. Edite o arquivo `input_mhs.dat` com os parâmetros desejados.
 4. Execute o programa no terminal ou VSCode:
    python mhs.py
+5. Para mais dúvidas consulte o Manual 
