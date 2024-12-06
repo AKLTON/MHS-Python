@@ -260,6 +260,8 @@ if(all == 1): #os comandos comentados são para exibição do gráfico usando a 
     print('Variável de controle na linha 7 ligada: \n' 
           'Executando todos os casos e plotando o gráfico de Posição x Tempo')
 
+    plt.figure(figsize=(10, 6))
+
     beta = 0.0
     w = wo
     tempo, posicao, velocidade, ener_cin, ener_pot, energia = mhs_sa(xo, vo, m, k, npt, dt, wo, beta)
@@ -307,18 +309,17 @@ if(all == 1): #os comandos comentados são para exibição do gráfico usando a 
     # )
 
     # fig.show()
-
     plt.plot(tempo, posicao, label=rf'Superamortecido, $\beta$ = {beta:.2f}', marker='s', color="purple")
-
     plt.axhline(y=-0.000, color='black', linestyle='-')
     plt.xlabel('Tempo(s)', fontsize=14)
-    plt.ylabel('Amplitude (m)', fontsize=14)
-    plt.xlim(min(tempo), max(tempo))
+    plt.ylabel('Amplitude (m)', labelpad=30.0, fontsize=14)
+    plt.xlim(min(tempo)-0.01, max(tempo)+0.03)
     plt.xticks(fontsize=12)
     plt.yticks(fontsize=12)
-    plt.title('Movimento Harmônico Simples e Amortecido')
+    plt.title('(Posição x Tempo - Movimento Harmônico Simples e Amortecido')
     plt.legend()
     plt.grid(False)
+    plt.savefig('grafico_mhs_all_posicoes.png')
     plt.show()
 # Salvando o gráfico
      #plt.savefig('grafico_mhs.png')
