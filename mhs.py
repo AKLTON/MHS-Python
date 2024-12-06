@@ -316,7 +316,7 @@ if(all == 1): #os comandos comentados são para exibição do gráfico usando a 
     plt.xlim(min(tempo)-0.01, max(tempo)+0.03)
     plt.xticks(fontsize=12)
     plt.yticks(fontsize=12)
-    plt.title('(Posição x Tempo - Movimento Harmônico Simples e Amortecido')
+    plt.title('(Posição x Tempo) - Movimento Harmônico Simples e Amortecido')
     plt.legend()
     plt.grid(False)
     plt.savefig('grafico_mhs_all_posicoes.png')
