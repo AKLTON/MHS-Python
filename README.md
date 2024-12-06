@@ -1,7 +1,7 @@
 # MHS-Python
 Código em Python de simulação do MHS para Tutoria de Física :
 Este repositório contém um programa em Python para simulação do Movimento Harmônico Simples (MHS) para Tutoria de Física :
-Departamento de Física - Univerisdade Federal de Juiz de Fora
+Departamento de Física - Universidade Federal de Juiz de Fora
 
 ## Arquivos incluídos
 - `mhs.py`: O programa principal.
