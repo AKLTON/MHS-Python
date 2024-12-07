@@ -184,7 +184,12 @@ if all == 0:
     try:
 
         mhs = int(input('Escolha o caso a ser avaliado: \n'
-            '[0] Sem amortecimento; (Bônus -->) [1] Subamortecido; [2] Crítico; [3] Superamortecido \n            '))
+            '[0] Sem amortecimento (Movimento Harmônico Simples)\n' 
+            'Casos com amortecimento:\n'
+            '[1] Subamortecido \n'
+            '[2] Crítico \n'
+            '[3] Superamortecido \n'            
+            '    '))
 
         if (mhs not in (0 ,1 ,2 ,3)):
             print('Valor incorreto. Encerrando...')
@@ -197,7 +202,10 @@ if all == 0:
     try:
 
         gr = int(input('Escolha o gráfico a ser plotado: \n'
-            '[0] Posição x Tempo; [1] Velocidade x Tempo; [2] Energia x Tempo \n            '))
+            '[0] Posição x Tempo\n' 
+            '[1] Velocidade x Tempo\n' 
+            '[2] Energia x Tempo \n'            
+            '    '))
 
         if (gr not in (0 ,1 ,2)):
             print('Valor incorreto. Encerrando...')
@@ -421,3 +429,4 @@ elif(all == 0):
 
 if all not in (0,1):
     print('Erro: Verifique seus dados de entrada')
+
